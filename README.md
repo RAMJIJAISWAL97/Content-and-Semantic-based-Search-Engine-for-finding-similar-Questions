@@ -1,4 +1,28 @@
 # Content-and-Semantic-based-Search-Engine-for-finding-similar-Questions
 To run these files you need to connect with Elastic Search Engine running and connection withy that.
 you can use Docker if you feel problem to resolve incomparibility Problem
-It also required RAM space more that 4GB and internet connection because it require to download pre trained tensor flow model to perform sementic search Query.
+It also required RAM space more that 4GB and internet connection because it require to download pre trained tensor flow model to perform sementic search Query.\n\n\n
+
+
+Data set is taken from kaggle compatetion.
+
+https://www.kaggle.com/stackoverflow/stacksample
+
+Descreption of Data Set:
+Dataset with the text of 10% of questions and answers from the Stack Overflow programming Q&A website.
+
+This is organized as three tables:
+
+Questions contains the title, body, creation date, closed date (if applicable), score, and owner ID for all non-deleted Stack Overflow questions whose Id is a multiple of 10.
+Answers contains the body, creation date, score, and owner ID for each of the answers to these questions. The ParentId column links back to the Questions table.
+Tags contains the tags on each of these questions
+Datasets of all R questions and all Python questions are also available on Kaggle, but this dataset is especially useful for analyses that span many languages.
+
+Example projects include:
+
+Identifying tags from question text
+Predicting whether questions will be upvoted, downvoted, or closed based on their text
+Predicting how long questions will take to answer
+
+
+But here in this project I am using only Questions DataSet.
