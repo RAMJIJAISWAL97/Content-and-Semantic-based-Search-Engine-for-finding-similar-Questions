@@ -10,8 +10,8 @@ This project helps to search similar questions to the given question.
 
 For the purpose of cosine distance and vectorization, Elastic search is used.
 
-To run these files you need to connect with Elastic Search Engine running and connection withy that.
-you can use Docker if you feel problem to resolve incomparibility Problem
+To run This project files you need to connect with Elastic Search Engine running and connection with that.
+You can use Docker if you feel problem to resolve incomparibility Problem.
 It also required RAM space more that 4GB and internet connection because it require to download pre trained tensor flow model to perform sementic search Query.\n\n\n
 
 
